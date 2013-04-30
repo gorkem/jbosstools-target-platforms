@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
 
-<target includeMode="feature" name="jbosstools-4.3.0.M4" sequenceNumber="8">
+<target includeMode="feature" name="jbosstools-4.3.0.M4" sequenceNumber="9">
 <locations>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.wst.xml_core.feature.feature.group" version="3.5.0.v201209252144-7C7OFqlF7RZHQRLfLwQmco"/>
+<unit id="org.eclipse.wst.xml_sdk.feature.feature.group" version="3.5.0.v201209252144-7A7D18DXJWYYGGVEA9jdap6fnd0YFcSOYbo4jaOg"/>
+<unit id="org.eclipse.wst.xml_core.feature.source.feature.group" version="3.5.0.v201209252144-7C7OFqlF7RZHQRLfLwQmco"/>
+<unit id="org.eclipse.wst.jsdt_sdk.feature.feature.group" version="1.5.0.v201209252144-47G190QCKMmrMUF0_nscH9w8PLoz-8tSfrTz00gs"/>
+<unit id="org.eclipse.wst.xml_ui.feature.source.feature.group" version="3.5.0.v201209252144-7H7HFiuDxumUpz0P4fjiOlKIepyEUc_MnPuU5VX"/>
+<repository location="http://download.jboss.org/jbosstools/updates/requirements/webtools/S-3.5.0M4-20121217201101/"/>
+</location>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="javax.wsdl" version="1.6.2.v201012040545"/>
 <unit id="javax.wsdl" version="1.5.1.v201012040544"/>
@@ -63,21 +71,8 @@
 <repository location="http://download.jboss.org/jbosstools/updates/requirements/orbit/R20120526062928/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.wst.xml_core.feature.feature.group" version="3.5.0.v201209252144-7C7OFqlF7RZHQRLfLwQmco"/>
-<unit id="org.eclipse.wst.xml_sdk.feature.feature.group" version="3.5.0.v201209252144-7A7D18DXJWYYGGVEA9jdap6fnd0YFcSOYbo4jaOg"/>
-<unit id="org.eclipse.wst.xml_core.feature.source.feature.group" version="3.5.0.v201209252144-7C7OFqlF7RZHQRLfLwQmco"/>
-<unit id="org.eclipse.wst.jsdt_sdk.feature.feature.group" version="1.5.0.v201209252144-47G190QCKMmrMUF0_nscH9w8PLoz-8tSfrTz00gs"/>
-<unit id="org.eclipse.wst.xml_ui.feature.source.feature.group" version="3.5.0.v201209252144-7H7HFiuDxumUpz0P4fjiOlKIepyEUc_MnPuU5VX"/>
-<repository location="http://download.jboss.org/jbosstools/updates/requirements/webtools/S-3.5.0M4-20121217201101/"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.sdk.ide" version="4.3.0.I20121214-0730"/>
 <repository location="http://download.jboss.org/jbosstools/updates/requirements/kepler/20121221-1430-M/"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="com.android.ide.eclipse.ddms.feature.group" version="21.1.0.v201302060044-569685"/>
-<unit id="com.android.ide.eclipse.adt.feature.group" version="21.1.0.v201302060044-569685"/>
-<repository location="https://dl-ssl.google.com/android/eclipse/"/>
 </location>
 </locations>
 <targetJRE path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
